@@ -7,7 +7,6 @@ When visiting the dashboard, you are presented with four charts to track various
 * (ii) a graph that tracks how much weight (lbs) you lifted per day.
 * (iii) a pie chart that shows the exercises you have completed by time (i.e. so you can see which exercise you have spent the most/least time doing).
 * (iv) a pie chart that shows the exercises completed by weight (i.e. so you can see which the exercise you have lifted the most/least doing).
-With workout tracker a user can pickup where they left off on their last workout or log a new workout. The user can add multiple exercises to their workout before completing the workout.
 
 ## Link To Deployed Heroku Application
 Heroku App ---> [here](https://workout-trakker.herokuapp.com/)
