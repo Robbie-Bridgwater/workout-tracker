@@ -13,7 +13,7 @@ router.post("/api/workouts", (req, res) => {
         });
 });
 
-router.put("/api/workouts/:id", (req, res) => {
+router.put("/workouts/:id", (req, res) => {
     const id = mongojs.ObjectId(req.params.id);
     Workout.findOneAndUpdate({ _id: id }, { $push: { exercises: body } }, { new: true })
         .then((dbWorkout) => {
@@ -24,7 +24,7 @@ router.put("/api/workouts/:id", (req, res) => {
         });
 });
 
-router.get("/api/workouts/range", (req, res) => {
+router.get("/workouts/range", (req, res) => {
     Workout.find({})
         .limit(7)
         .then((dbWorkout) => {
@@ -35,7 +35,7 @@ router.get("/api/workouts/range", (req, res) => {
         });
 });
 
-router.get("/api/workouts", (req, res) => {
+router.get("/workouts", (req, res) => {
     Workout.find({})
         .then((dbWorkout) => {
             res.json(dbWorkout);
