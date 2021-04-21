@@ -18,4 +18,43 @@ Heroku App ---> [here](https://workout-trakker.herokuapp.com/)
 * Mongoose
 * Express
 
+## Installation
+The file contains a package.json so to run this on your local device you will just need to:
+* (i) clone the repository
+* (ii) navigate to the root folder in your terminal and run `npm i` 
+* (iii) remaining in the root folder in your terminal, run `npm start`
+
+## Usage
+You may do either of the following:
+* Follow the installation instructions above to run the app on your local device.
+* Use the deployed Heroku app, found at the top of this README
+
 ## Screenshots
+Application in action --->
+
+- Initial Page
+
+![image](public/img/screenshot1.png)
+
+- Add an exercise
+
+![image](public/img/tech-blog-screenshot2.png)
+
+- Data visualisation page
+
+![image](public/assets/img/screenshot3.png)
+
+## License
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+> This project was created under the standard MIT licence.
+
+> [Learn more about this licence.](https://lbesson.mit-license.org/)
+
+## Questions?
+
+Please contact me through my GitHub provided below if you have any questions relating to how the application works or any of my other projects
+
+My GitHub username is Robbie-Bridgwater
+
+Link to my GitHub Profile ---> https://github.com/Robbie-Bridgwater
