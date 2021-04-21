@@ -1,4 +1,4 @@
-# workout-tracker
+# Workout-Tracker
 
 A simple web app for tracking your workouts. You can pick up where you left off or log a new workout.
 When visiting the dashboard, you are presented with four charts to track various statistics, these are:
