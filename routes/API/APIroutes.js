@@ -1,6 +1,5 @@
 const Workout = require("../../models/workout");
 const express = require("express");
-const mongojs = require("mongojs");
 const router = express.Router();
 
 router.post("/workouts", (req, res) => {
@@ -14,7 +13,6 @@ router.post("/workouts", (req, res) => {
 });
 
 router.put("/workouts/:id", (req, res) => {
-    // const id = mongojs.ObjectId(req.params.id);
     Workout.updateOne({ _id: req.params.id }, //filter 
             { $push: { exercises: req.body } }, { new: true }) //update
         .then((dbWorkout) => {
