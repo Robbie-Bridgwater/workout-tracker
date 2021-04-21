@@ -21,8 +21,9 @@ Heroku App ---> [here](https://workout-trakker.herokuapp.com/)
 ## Installation
 The file contains a package.json so to run this on your local device you will just need to:
 * (i) clone the repository
-* (ii) navigate to the root folder in your terminal and run `npm i` 
-* (iii) remaining in the root folder in your terminal, run `npm start`
+* (ii) start a mongodb server in the background by opening up the terminal and running `mongodb`
+* (iii) navigate to the root directory in your terminal and run `npm i` 
+* (iv) run `npm start` in the terminal from the root directory
 
 ## Usage
 You may do either of the following:
