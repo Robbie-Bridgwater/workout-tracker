@@ -3,7 +3,7 @@ const express = require("express");
 const mongojs = require("mongojs");
 const router = express.Router();
 
-router.post("/api/workouts", (req, res) => {
+router.post("/workouts", (req, res) => {
     Workout.create({})
         .then((dbWorkout) => {
             res.json(dbWorkout);
@@ -15,7 +15,8 @@ router.post("/api/workouts", (req, res) => {
 
 router.put("/workouts/:id", (req, res) => {
     const id = mongojs.ObjectId(req.params.id);
-    Workout.findOneAndUpdate({ _id: id }, { $push: { exercises: body } }, { new: true })
+    Workout.updateOne({ _id: id }, //filter 
+            { $push: { exercises: req.body } }, { new: true }) //update
         .then((dbWorkout) => {
             res.json(dbWorkout);
         })
