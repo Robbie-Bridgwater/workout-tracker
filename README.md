@@ -38,11 +38,11 @@ Application in action --->
 
 - Add an exercise
 
-![image](public/img/tech-blog-screenshot2.png)
+![image](public/img/screenshot2.png)
 
 - Data visualisation page
 
-![image](public/assets/img/screenshot3.png)
+![image](public/img/screenshot3.png)
 
 ## License
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
