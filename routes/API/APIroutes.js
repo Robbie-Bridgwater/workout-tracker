@@ -14,8 +14,8 @@ router.post("/workouts", (req, res) => {
 });
 
 router.put("/workouts/:id", (req, res) => {
-    const id = mongojs.ObjectId(req.params.id);
-    Workout.updateOne({ _id: id }, //filter 
+    // const id = mongojs.ObjectId(req.params.id);
+    Workout.updateOne({ _id: req.params.id }, //filter 
             { $push: { exercises: req.body } }, { new: true }) //update
         .then((dbWorkout) => {
             res.json(dbWorkout);
