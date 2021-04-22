@@ -20,7 +20,7 @@ Section | Description
 [Questions](#Questions?) | Where you can reach me
 
 ## Deployment
-HEROKU APP ---> [HERE](https://workout-trakker.herokuapp.com/)
+OPEN WORKOUT TRACKER ---> [HERE](https://workout-trakker.herokuapp.com/)
 
 ## Technologies
 
