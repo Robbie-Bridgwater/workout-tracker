@@ -9,7 +9,7 @@ When visiting the dashboard, you are presented with four charts to track various
 * (iv) a pie chart that shows the exercises completed by weight (i.e. you can proportionally see which the exercise you have lifted the most/least doing).
 
 ## Link To Deployed Heroku Application
-Heroku App ---> [HERE](https://workout-trakker.herokuapp.com/)
+HEROKU APP ---> [HERE](https://workout-trakker.herokuapp.com/)
 
 ## Technologies
 
