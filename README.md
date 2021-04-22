@@ -8,6 +8,17 @@ When visiting the dashboard, you are presented with four charts to track various
 * (iii) a pie chart that shows the exercises you have completed by time (i.e. you can proportionally see which exercise you have spent the most/least time doing).
 * (iv) a pie chart that shows the exercises completed by weight (i.e. you can proportionally see which the exercise you have lifted the most/least doing).
 
+## Contents
+Section | Description
+------------ | -------------
+[Link to Deployed App](#Link To Deployed Heroku Application) | Link to the Deployed Heroku Application
+[Technologies](#Technologies) | Technologies Used
+[Installation](#Installation) | Installation Information
+[Usage](#Usage) | How to use the application
+[Screenshots](#Screenshots) | Screenshots of the deployed application
+[Licence](#licence) | Licence for the source code
+[Questions](#Questions?) | Where you can reach me
+
 ## Link To Deployed Heroku Application
 HEROKU APP ---> [HERE](https://workout-trakker.herokuapp.com/)
 
