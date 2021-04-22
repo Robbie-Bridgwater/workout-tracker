@@ -14,9 +14,12 @@ router.post("/workouts", (req, res) => {
 });
 
 router.put("/workouts/:id", (req, res) => {
-    Workout.updateOne({ _id: req.params.id }, //filter 
-            { $push: { exercises: req.body } }, { new: true }) //update
-        .then((dbWorkout) => {
+    Workout.updateOne(
+
+            { _id: req.params.id }, //filter 
+            { $push: { exercises: req.body } }, { new: true } //update
+
+        ).then((dbWorkout) => {
             res.json(dbWorkout);
         })
         .catch((err) => {
