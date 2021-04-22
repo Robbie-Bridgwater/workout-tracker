@@ -11,7 +11,7 @@ When visiting the dashboard, you are presented with four charts to track various
 ## Contents
 Section | Description
 ------------ | -------------
-[Link to Deployed App](#Link To Deployed Heroku Application) | Link to the Deployed Heroku Application
+[Deployment](#Deployment) | Link to the Deployed Heroku Application
 [Technologies](#Technologies) | Technologies Used
 [Installation](#Installation) | Installation Information
 [Usage](#Usage) | How to use the application
@@ -19,7 +19,7 @@ Section | Description
 [Licence](#licence) | Licence for the source code
 [Questions](#Questions?) | Where you can reach me
 
-## Link To Deployed Heroku Application
+## Deployment
 HEROKU APP ---> [HERE](https://workout-trakker.herokuapp.com/)
 
 ## Technologies
