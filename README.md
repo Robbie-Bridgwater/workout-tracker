@@ -30,7 +30,7 @@ OPEN WORKOUT TRACKER ---> [HERE](https://workout-trakker.herokuapp.com/)
 * Express
 
 ## Installation
-The file contains a package.json so to run this on your local device you will just need to:
+The app contains a package.json so to run this on your local device you will just need to:
 * (i) clone the repository
 * (ii) start a mongodb server in the background by opening up the terminal and running `mongodb`
 * (iii) navigate to the root directory in your terminal and run `npm i` 
